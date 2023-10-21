@@ -1,109 +1,110 @@
-[fps] -- [[60]]
 [resolutions] -- [[
     1280x720
 ]]
-[2023:10:21:12:42:21]: Info: Sunshine version: v0.21.0
-[2023:10:21:12:42:21]: Error: Couldn't initialize cuda: CUDA_ERROR_NO_DEVICE:no CUDA-capable device is detected
-[2023:10:21:12:42:21]: Error: Environment variable WAYLAND_DISPLAY has not been defined
-[2023:10:21:12:42:21]: Info: Detecting monitors
-[2023:10:21:12:42:21]: Info: Detected monitor 0: DP-1, connected: true
-[2023:10:21:12:42:21]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
-[2023:10:21:12:42:21]: Info: Trying encoder [nvenc]
-[2023:10:21:12:42:21]: Info: Screencasting with KMS
-[2023:10:21:12:42:21]: Info: Found monitor for DRM screencasting
-[2023:10:21:12:42:21]: Info: System tray created
-[2023:10:21:12:42:21]: Info: Screencasting with KMS
-[2023:10:21:12:42:21]: Info: Found monitor for DRM screencasting
-[2023:10:21:12:42:21]: Info: SDR color coding [Rec. 601]
-[2023:10:21:12:42:21]: Info: Color depth: 8-bit
-[2023:10:21:12:42:21]: Info: Color range: [JPEG]
-[2023:10:21:12:42:21]: Error: [AVHWDeviceContext @ 0x55592dec8b00] cu->cuInit(0) failed
-[2023:10:21:12:42:21]: Error:  -> CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
-[2023:10:21:12:42:21]: Error: 
-[2023:10:21:12:42:21]: Error: Failed to create a CUDA device: Generic error in an external library
-[2023:10:21:12:42:21]: Info: Screencasting with KMS
-[2023:10:21:12:42:21]: Info: Found monitor for DRM screencasting
-[2023:10:21:12:42:21]: Info: SDR color coding [Rec. 601]
-[2023:10:21:12:42:21]: Info: Color depth: 8-bit
-[2023:10:21:12:42:21]: Info: Color range: [JPEG]
-[2023:10:21:12:42:21]: Error: [AVHWDeviceContext @ 0x55592deefa40] cu->cuInit(0) failed
-[2023:10:21:12:42:21]: Error:  -> CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
-[2023:10:21:12:42:21]: Error: 
-[2023:10:21:12:42:21]: Error: Failed to create a CUDA device: Generic error in an external library
-[2023:10:21:12:42:21]: Info: Screencasting with KMS
-[2023:10:21:12:42:21]: Info: Found monitor for DRM screencasting
-[2023:10:21:12:42:21]: Info: SDR color coding [Rec. 601]
-[2023:10:21:12:42:21]: Info: Color depth: 8-bit
-[2023:10:21:12:42:21]: Info: Color range: [JPEG]
-[2023:10:21:12:42:21]: Error: [AVHWDeviceContext @ 0x55592dd28e40] cu->cuInit(0) failed
-[2023:10:21:12:42:21]: Error:  -> CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
-[2023:10:21:12:42:21]: Error: 
-[2023:10:21:12:42:21]: Error: Failed to create a CUDA device: Generic error in an external library
-[2023:10:21:12:42:21]: Info: Screencasting with KMS
-[2023:10:21:12:42:21]: Info: Found monitor for DRM screencasting
-[2023:10:21:12:42:21]: Info: SDR color coding [Rec. 601]
-[2023:10:21:12:42:21]: Info: Color depth: 8-bit
-[2023:10:21:12:42:21]: Info: Color range: [JPEG]
-[2023:10:21:12:42:21]: Error: [AVHWDeviceContext @ 0x55592df0a8c0] cu->cuInit(0) failed
-[2023:10:21:12:42:21]: Error:  -> CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
-[2023:10:21:12:42:21]: Error: 
-[2023:10:21:12:42:21]: Error: Failed to create a CUDA device: Generic error in an external library
-[2023:10:21:12:42:21]: Info: Encoder [nvenc] failed
-[2023:10:21:12:42:21]: Info: Trying encoder [vaapi]
-[2023:10:21:12:42:21]: Info: Screencasting with KMS
-[2023:10:21:12:42:21]: Info: Found monitor for DRM screencasting
-[2023:10:21:12:42:21]: Info: Screencasting with KMS
-[2023:10:21:12:42:21]: Info: Found monitor for DRM screencasting
-[2023:10:21:12:42:21]: Info: SDR color coding [Rec. 601]
-[2023:10:21:12:42:21]: Info: Color depth: 8-bit
-[2023:10:21:12:42:21]: Info: Color range: [JPEG]
-[2023:10:21:12:42:21]: Warning: [h264_vaapi @ 0x55592dca47c0] Driver does not support some wanted packed headers (wanted 0xd, found 0).
-[2023:10:21:12:42:21]: Info: Screencasting with KMS
-[2023:10:21:12:42:21]: Info: Found monitor for DRM screencasting
-[2023:10:21:12:42:21]: Info: SDR color coding [Rec. 601]
-[2023:10:21:12:42:21]: Info: Color depth: 8-bit
-[2023:10:21:12:42:21]: Info: Color range: [JPEG]
-[2023:10:21:12:42:21]: Warning: [hevc_vaapi @ 0x55592dd28a00] Driver does not support some wanted packed headers (wanted 0xd, found 0x1).
-[2023:10:21:12:42:21]: Info: Screencasting with KMS
-[2023:10:21:12:42:21]: Info: Found monitor for DRM screencasting
-[2023:10:21:12:42:21]: Info: SDR color coding [Rec. 601]
-[2023:10:21:12:42:21]: Info: Color depth: 8-bit
-[2023:10:21:12:42:21]: Info: Color range: [JPEG]
-[2023:10:21:12:42:21]: Error: [av1_vaapi @ 0x55592dd28a00] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
-[2023:10:21:12:42:21]: Error: Could not open codec [av1_vaapi]: Function not implemented
-[2023:10:21:12:42:21]: Info: Screencasting with KMS
-[2023:10:21:12:42:21]: Info: Found monitor for DRM screencasting
-[2023:10:21:12:42:21]: Info: SDR color coding [Rec. 601]
-[2023:10:21:12:42:21]: Info: Color depth: 8-bit
-[2023:10:21:12:42:21]: Info: Color range: [JPEG]
-[2023:10:21:12:42:21]: Error: [av1_vaapi @ 0x55592dd28a00] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
-[2023:10:21:12:42:21]: Error: Could not open codec [av1_vaapi]: Function not implemented
-[2023:10:21:12:42:21]: Info: Screencasting with KMS
-[2023:10:21:12:42:21]: Info: Found monitor for DRM screencasting
-[2023:10:21:12:42:21]: Info: SDR color coding [Rec. 601]
-[2023:10:21:12:42:21]: Info: Color depth: 8-bit
-[2023:10:21:12:42:21]: Info: Color range: [JPEG]
-[2023:10:21:12:42:21]: Error: [av1_vaapi @ 0x55592dd28a00] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
-[2023:10:21:12:42:21]: Error: Could not open codec [av1_vaapi]: Function not implemented
-[2023:10:21:12:42:21]: Info: Screencasting with KMS
-[2023:10:21:12:42:21]: Info: Found monitor for DRM screencasting
-[2023:10:21:12:42:21]: Info: SDR color coding [Rec. 601]
-[2023:10:21:12:42:21]: Info: Color depth: 8-bit
-[2023:10:21:12:42:21]: Info: Color range: [JPEG]
-[2023:10:21:12:42:21]: Error: [av1_vaapi @ 0x55592dd28a00] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
-[2023:10:21:12:42:21]: Error: Could not open codec [av1_vaapi]: Function not implemented
-[2023:10:21:12:42:21]: Info: Screencasting with KMS
-[2023:10:21:12:42:21]: Info: Found monitor for DRM screencasting
-[2023:10:21:12:42:21]: Info: SDR color coding [Rec. 709]
-[2023:10:21:12:42:21]: Info: Color depth: 10-bit
-[2023:10:21:12:42:21]: Info: Color range: [JPEG]
-[2023:10:21:12:42:21]: Error: [AVHWFramesContext @ 0x55592df6d740] Unsupported format: yuv420p10le.
-[2023:10:21:12:42:21]: Warning: vaapi: hevc missing sps->vui parameters
-[2023:10:21:12:42:21]: Info: 
-[2023:10:21:12:42:21]: Info: // Ignore any errors mentioned above, they are not relevant. //
-[2023:10:21:12:42:21]: Info: 
-[2023:10:21:12:42:21]: Info: Found H.264 encoder: h264_vaapi [vaapi]
-[2023:10:21:12:42:21]: Info: Found HEVC encoder: hevc_vaapi [vaapi]
-[2023:10:21:12:42:21]: Error: Failed to create client: Daemon not running
-[2023:10:21:12:42:21]: Info: Configuration UI available at [https://localhost:47990]
-[2023:10:21:12:42:37]: Info: Interrupt handler called
+[audio_sink] -- [alsa_output.usb-Logitech_G533_Gaming_Headset-00.analog-stereo]
+[fps] -- [[60]]
+[2023:10:21:13:11:39]: Info: Sunshine version: 0.21.0.5b052d7c2c059aa26fdf79cc87885af2f461f544
+[2023:10:21:13:11:39]: Error: Environment variable WAYLAND_DISPLAY has not been defined
+[2023:10:21:13:11:39]: Info: Detecting monitors
+[2023:10:21:13:11:39]: Info: Detected monitor 0: DP-1, connected: true
+[2023:10:21:13:11:39]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2023:10:21:13:11:39]: Info: Trying encoder [nvenc]
+[2023:10:21:13:11:39]: Info: Screencasting with KMS
+[2023:10:21:13:11:39]: Info: Found monitor for DRM screencasting
+[2023:10:21:13:11:39]: Info: System tray created
+[2023:10:21:13:11:39]: Info: Screencasting with KMS
+[2023:10:21:13:11:39]: Info: Found monitor for DRM screencasting
+[2023:10:21:13:11:39]: Info: SDR color coding [Rec. 601]
+[2023:10:21:13:11:39]: Info: Color depth: 8-bit
+[2023:10:21:13:11:39]: Info: Color range: [JPEG]
+[2023:10:21:13:11:39]: Error: [AVHWDeviceContext @ 0x55cd3b030480] cu->cuInit(0) failed
+[2023:10:21:13:11:39]: Error:  -> CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[2023:10:21:13:11:39]: Error: 
+[2023:10:21:13:11:39]: Error: Failed to create a CUDA device: Generic error in an external library
+[2023:10:21:13:11:39]: Info: Screencasting with KMS
+[2023:10:21:13:11:39]: Info: Found monitor for DRM screencasting
+[2023:10:21:13:11:39]: Info: SDR color coding [Rec. 601]
+[2023:10:21:13:11:39]: Info: Color depth: 8-bit
+[2023:10:21:13:11:39]: Info: Color range: [JPEG]
+[2023:10:21:13:11:39]: Error: [AVHWDeviceContext @ 0x55cd3b1d4000] cu->cuInit(0) failed
+[2023:10:21:13:11:39]: Error:  -> CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[2023:10:21:13:11:39]: Error: 
+[2023:10:21:13:11:39]: Error: Failed to create a CUDA device: Generic error in an external library
+[2023:10:21:13:11:39]: Info: Screencasting with KMS
+[2023:10:21:13:11:39]: Info: Found monitor for DRM screencasting
+[2023:10:21:13:11:39]: Info: SDR color coding [Rec. 601]
+[2023:10:21:13:11:39]: Info: Color depth: 8-bit
+[2023:10:21:13:11:39]: Info: Color range: [JPEG]
+[2023:10:21:13:11:39]: Error: [AVHWDeviceContext @ 0x55cd3afb12c0] cu->cuInit(0) failed
+[2023:10:21:13:11:39]: Error:  -> CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[2023:10:21:13:11:39]: Error: 
+[2023:10:21:13:11:39]: Error: Failed to create a CUDA device: Generic error in an external library
+[2023:10:21:13:11:39]: Info: Screencasting with KMS
+[2023:10:21:13:11:39]: Info: Found monitor for DRM screencasting
+[2023:10:21:13:11:39]: Info: SDR color coding [Rec. 601]
+[2023:10:21:13:11:39]: Info: Color depth: 8-bit
+[2023:10:21:13:11:39]: Info: Color range: [JPEG]
+[2023:10:21:13:11:39]: Error: [AVHWDeviceContext @ 0x55cd3b067d80] cu->cuInit(0) failed
+[2023:10:21:13:11:39]: Error:  -> CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+[2023:10:21:13:11:39]: Error: 
+[2023:10:21:13:11:39]: Error: Failed to create a CUDA device: Generic error in an external library
+[2023:10:21:13:11:39]: Info: Encoder [nvenc] failed
+[2023:10:21:13:11:39]: Info: Trying encoder [vaapi]
+[2023:10:21:13:11:39]: Info: Screencasting with KMS
+[2023:10:21:13:11:39]: Info: Found monitor for DRM screencasting
+[2023:10:21:13:11:39]: Info: Screencasting with KMS
+[2023:10:21:13:11:39]: Info: Found monitor for DRM screencasting
+[2023:10:21:13:11:39]: Info: SDR color coding [Rec. 601]
+[2023:10:21:13:11:39]: Info: Color depth: 8-bit
+[2023:10:21:13:11:39]: Info: Color range: [JPEG]
+[2023:10:21:13:11:39]: Warning: [h264_vaapi @ 0x55cd3b0d67c0] Driver does not support some wanted packed headers (wanted 0xd, found 0).
+[2023:10:21:13:11:39]: Info: Screencasting with KMS
+[2023:10:21:13:11:39]: Info: Found monitor for DRM screencasting
+[2023:10:21:13:11:39]: Info: SDR color coding [Rec. 601]
+[2023:10:21:13:11:39]: Info: Color depth: 8-bit
+[2023:10:21:13:11:39]: Info: Color range: [JPEG]
+[2023:10:21:13:11:39]: Warning: [hevc_vaapi @ 0x55cd3bb95980] Driver does not support some wanted packed headers (wanted 0xd, found 0x1).
+[2023:10:21:13:11:39]: Info: Screencasting with KMS
+[2023:10:21:13:11:39]: Info: Found monitor for DRM screencasting
+[2023:10:21:13:11:39]: Info: SDR color coding [Rec. 601]
+[2023:10:21:13:11:39]: Info: Color depth: 8-bit
+[2023:10:21:13:11:39]: Info: Color range: [JPEG]
+[2023:10:21:13:11:39]: Error: [av1_vaapi @ 0x55cd3afc2500] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
+[2023:10:21:13:11:39]: Error: Could not open codec [av1_vaapi]: Function not implemented
+[2023:10:21:13:11:39]: Info: Screencasting with KMS
+[2023:10:21:13:11:39]: Info: Found monitor for DRM screencasting
+[2023:10:21:13:11:39]: Info: SDR color coding [Rec. 601]
+[2023:10:21:13:11:39]: Info: Color depth: 8-bit
+[2023:10:21:13:11:39]: Info: Color range: [JPEG]
+[2023:10:21:13:11:39]: Error: [av1_vaapi @ 0x55cd3bb95980] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
+[2023:10:21:13:11:39]: Error: Could not open codec [av1_vaapi]: Function not implemented
+[2023:10:21:13:11:39]: Info: Screencasting with KMS
+[2023:10:21:13:11:39]: Info: Found monitor for DRM screencasting
+[2023:10:21:13:11:39]: Info: SDR color coding [Rec. 601]
+[2023:10:21:13:11:39]: Info: Color depth: 8-bit
+[2023:10:21:13:11:39]: Info: Color range: [JPEG]
+[2023:10:21:13:11:39]: Error: [av1_vaapi @ 0x7f67b0066e40] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
+[2023:10:21:13:11:39]: Error: Could not open codec [av1_vaapi]: Function not implemented
+[2023:10:21:13:11:39]: Info: Screencasting with KMS
+[2023:10:21:13:11:39]: Info: Found monitor for DRM screencasting
+[2023:10:21:13:11:39]: Info: SDR color coding [Rec. 601]
+[2023:10:21:13:11:39]: Info: Color depth: 8-bit
+[2023:10:21:13:11:39]: Info: Color range: [JPEG]
+[2023:10:21:13:11:39]: Error: [av1_vaapi @ 0x7f67c40e2700] No usable encoding entrypoint found for profile VAProfileAV1Profile0 (32).
+[2023:10:21:13:11:39]: Error: Could not open codec [av1_vaapi]: Function not implemented
+[2023:10:21:13:11:39]: Info: Screencasting with KMS
+[2023:10:21:13:11:39]: Info: Found monitor for DRM screencasting
+[2023:10:21:13:11:39]: Info: SDR color coding [Rec. 709]
+[2023:10:21:13:11:39]: Info: Color depth: 10-bit
+[2023:10:21:13:11:39]: Info: Color range: [JPEG]
+[2023:10:21:13:11:39]: Error: [AVHWFramesContext @ 0x55cd3b2355c0] Unsupported format: yuv420p10le.
+[2023:10:21:13:11:39]: Warning: vaapi: hevc missing sps->vui parameters
+[2023:10:21:13:11:39]: Info: 
+[2023:10:21:13:11:39]: Info: // Ignore any errors mentioned above, they are not relevant. //
+[2023:10:21:13:11:39]: Info: 
+[2023:10:21:13:11:39]: Info: Found H.264 encoder: h264_vaapi [vaapi]
+[2023:10:21:13:11:39]: Info: Found HEVC encoder: hevc_vaapi [vaapi]
+[2023:10:21:13:11:39]: Error: Failed to create client: Daemon not running
+[2023:10:21:13:11:39]: Info: Configuration UI available at [https://localhost:47990]
+[2023:10:21:13:12:10]: Info: Quitting from system tray
+[2023:10:21:13:12:10]: Info: Interrupt handler called
