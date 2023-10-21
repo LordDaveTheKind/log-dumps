@@ -1,0 +1,43 @@
+[output_name] -- [2]
+[2023:10:21:12:37:21]: Info: Sunshine version: v0.21.0
+[2023:10:21:12:37:21]: Error: Couldn't initialize cuda: CUDA_ERROR_NO_DEVICE:no CUDA-capable device is detected
+[2023:10:21:12:37:21]: Info: Found display [wayland-0]
+[2023:10:21:12:37:21]: Info: Found interface: wl_output(4) version 4
+[2023:10:21:12:37:21]: Info: Found interface: zxdg_output_manager_v1(5) version 3
+[2023:10:21:12:37:21]: Warning: Missing Wayland wire for wlr-export-dmabuf
+[2023:10:21:12:37:21]: Info: Found display [wayland-0]
+[2023:10:21:12:37:21]: Info: Found display [wayland-0]
+[2023:10:21:12:37:21]: Info: Found interface: wl_output(4) version 4
+[2023:10:21:12:37:21]: Info: Found interface: zxdg_output_manager_v1(5) version 3
+[2023:10:21:12:37:21]: Info: Offset: 0x0
+[2023:10:21:12:37:21]: Info: Resolution: 2560x1440
+[2023:10:21:12:37:21]: Info: Name: DP-1
+[2023:10:21:12:37:21]: Info: Found monitor: ASUSTek COMPUTER INC 32"
+[2023:10:21:12:37:21]: Info: DP-1: ASUSTek COMPUTER INC 32"
+[2023:10:21:12:37:21]: Info: // Testing for available encoders, this may generate errors. You can safely ignore those errors. //
+[2023:10:21:12:37:21]: Info: Trying encoder [nvenc]
+[2023:10:21:12:37:21]: Info: Screencasting with KMS
+[2023:10:21:12:37:21]: Error: Couldn't find monitor [2]
+[2023:10:21:12:37:21]: Info: System tray created
+[2023:10:21:12:37:21]: Info: Screencasting with KMS
+[2023:10:21:12:37:21]: Error: Couldn't find monitor [2]
+[2023:10:21:12:37:21]: Info: Encoder [nvenc] failed
+[2023:10:21:12:37:21]: Info: Trying encoder [vaapi]
+[2023:10:21:12:37:21]: Info: Screencasting with KMS
+[2023:10:21:12:37:21]: Error: Couldn't find monitor [2]
+[2023:10:21:12:37:21]: Error: Couldn't find monitor [2]
+[2023:10:21:12:37:22]: Info: Screencasting with KMS
+[2023:10:21:12:37:22]: Error: Couldn't find monitor [2]
+[2023:10:21:12:37:22]: Error: Couldn't find monitor [2]
+[2023:10:21:12:37:22]: Info: Encoder [vaapi] failed
+[2023:10:21:12:37:22]: Info: Trying encoder [software]
+[2023:10:21:12:37:22]: Info: Screencasting with KMS
+[2023:10:21:12:37:22]: Error: Couldn't find monitor [2]
+[2023:10:21:12:37:22]: Info: Screencasting with KMS
+[2023:10:21:12:37:22]: Error: Couldn't find monitor [2]
+[2023:10:21:12:37:22]: Info: Encoder [software] failed
+[2023:10:21:12:37:22]: Fatal: Couldn't find any working encoder
+[2023:10:21:12:37:22]: Error: Video failed to find working encoder
+[2023:10:21:12:37:22]: Error: Failed to create client: Daemon not running
+[2023:10:21:12:37:22]: Info: Configuration UI available at [https://localhost:47990]
+[2023:10:21:12:37:34]: Info: Interrupt handler called
